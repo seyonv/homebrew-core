@@ -16,7 +16,7 @@ class YoutubeDl < Formula
 
   head do
     url "https://github.com/rg3/youtube-dl.git"
-    depends_on "pandoc" => :build
+    depends_on "pandoc" => :buildg
   end
 
   depends_on "rtmpdump" => :optional
